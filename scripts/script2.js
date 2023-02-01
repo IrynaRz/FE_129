@@ -1,4 +1,4 @@
-//задания 3, 4, 5, 6, 7
+console.log('задания 3, 4, 5, 6, 7')
 let height = 23;
 let width = 10;
 let SPryam = width*height;

@@ -1,4 +1,4 @@
-//задание 2
+console.log('задание 2');
 let a1 = 5%3;
 console.log(a1);
 console.log(a1, typeof a1);
@@ -54,9 +54,7 @@ let a18 = true > 0
 console.log(a18);
 console.log(a18, typeof a18);
 console.log('');
-
-
-//задание 8 a=c=8 (переменная а была объявлена ранее);
+console.log('задание 8'); //a=c=8 (переменная а была объявлена ранее);
 let c = 8;
     b = 3;
 {
@@ -80,3 +78,4 @@ let c = 8;
     console.log(x);
     console.log(x + 2 * x + c * x + b * x);
 }
+console.log('');
