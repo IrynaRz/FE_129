@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Iryna Rzhavina"/>
+    <title>Ind_work</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="site">
+        <div class="h2">Tabbed Image Gallery</div>
+        <div class="h5">Click on the images below:</div>
+        <div class="galery">
+            <img src="./images/img_nature.jpg" alt="Nature" onclick="openImg(this);">
+            <img src="./images/img_mountains.jpg" alt="Mountains" onclick="openImg(this);">
+            <img src="./images/img_snow.jpg" alt="Snow" onclick="openImg(this);">
+            <img src="./images/img_lights.jpg" alt="Lights" onclick="openImg(this);">   
+        </div>
+        <div class="container">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            
+            <img id="expandedImg" style="width:100%">
+
+            <div id="imgtext"></div>
+        </div>
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+</html>
